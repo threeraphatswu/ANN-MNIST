@@ -9,7 +9,7 @@ st.write("Upload an image of a handwritten digit to get a prediction.")
 
 # Ensure the model is loaded (assuming 'model' is globally available or re-load it)
 # If 'model' is not loaded, you would need to load it here, e.g., model = tf.keras.models.load_model('path/to/your/model.h5')
-model_path = '6xxxx_mnist_model.keras'
+model_path = '67102010516_mnist_model.keras'
 if not os.path.exists(model_path):
     st.error(f"Model file '{model_path}' not found. Please ensure the model is saved correctly.")
 else:
